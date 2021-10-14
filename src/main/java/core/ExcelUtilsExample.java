@@ -1,6 +1,7 @@
 package core;
 
 import java.io.File;
+import java.util.List;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -47,10 +48,13 @@ public class ExcelUtilsExample {
 		}
 		return sheet;
 	}
-	public int getRows() {
+	public int getRowCount() {
 		return getSheet().getPhysicalNumberOfRows();
 	}
-	public int getColumn() {
+	public int getColumnCount() {
 		return getSheet().getRow(0).getPhysicalNumberOfCells();
+	}
+	public List<String> getDatByColumns(int columns) {
+		return null;
 	}
 }
