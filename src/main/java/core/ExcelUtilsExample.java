@@ -2,7 +2,6 @@ package core;
 
 import java.io.File;
 
-import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -53,4 +52,5 @@ public class ExcelUtilsExample {
 	public int getColumn() {
 		return getSheet().getRow(0).getPhysicalNumberOfCells();
 	}
+	
 }
