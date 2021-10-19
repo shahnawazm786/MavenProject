@@ -6,8 +6,8 @@
       <class name="TestCases.TestNGExample">
         <methods>
           <include name="setup"/>
-          <include name="SearchTest"/>
           <include name="tearDown"/>
+          <include name="SearchMultiTest"/>
         </methods>
       </class> <!-- TestCases.TestNGExample -->
     </classes>
