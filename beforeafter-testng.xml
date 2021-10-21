@@ -10,4 +10,16 @@
       </class>
     </classes>
   </test> <!-- First Test -->
+  
+  <test thread-count="5" name="Second Test">
+    <classes>
+      <class name="tests.beforeafter.TestClass">
+      <methods>
+      <include name="testTwoMethod"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- First Test -->
+  
+  
 </suite> <!-- First Suite -->
