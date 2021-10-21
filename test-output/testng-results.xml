@@ -1,29 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-21T11:37:49 IST" name="Regular Expression Test" finished-at="2021-10-21T11:37:49 IST" duration-ms="90">
+  <suite started-at="2021-10-21T12:35:28 IST" name="First Suite" finished-at="2021-10-21T12:35:28 IST" duration-ms="51">
     <groups>
+      <group name="testone">
+        <method signature="TestClass.testOneMethod()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" name="testOneMethod" class="tests.beforeafter.TestClass"/>
+      </group> <!-- testone -->
     </groups>
-    <test started-at="2021-10-21T11:37:49 IST" name="Regular Expression Test" finished-at="2021-10-21T11:37:49 IST" duration-ms="90">
-      <class name="regularexpressionpackage.RegularExpClass">
-        <test-method signature="excludeFirstTest()[pri:0, instance:regularexpressionpackage.RegularExpClass@7133da86]" started-at="2021-10-21T11:37:49 IST" name="excludeFirstTest" finished-at="2021-10-21T11:37:49 IST" duration-ms="12" status="PASS">
+    <test started-at="2021-10-21T12:35:28 IST" name="First Test" finished-at="2021-10-21T12:35:28 IST" duration-ms="51">
+      <class name="tests.beforeafter.TestClass">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="beforeSuite" finished-at="2021-10-21T12:35:28 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- excludeFirstTest -->
-        <test-method signature="excludeSecondTest()[pri:0, instance:regularexpressionpackage.RegularExpClass@7133da86]" started-at="2021-10-21T11:37:49 IST" name="excludeSecondTest" finished-at="2021-10-21T11:37:49 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="beforeTest" finished-at="2021-10-21T12:35:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- excludeSecondTest -->
-        <test-method signature="includeFirstTest()[pri:0, instance:regularexpressionpackage.RegularExpClass@7133da86]" started-at="2021-10-21T11:37:49 IST" name="includeFirstTest" finished-at="2021-10-21T11:37:49 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="beforeClass" finished-at="2021-10-21T12:35:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- includeFirstTest -->
-        <test-method signature="includeSecondTest()[pri:0, instance:regularexpressionpackage.RegularExpClass@7133da86]" started-at="2021-10-21T11:37:49 IST" name="includeSecondTest" finished-at="2021-10-21T11:37:49 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="beforeMethod" finished-at="2021-10-21T12:35:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- includeSecondTest -->
-      </class> <!-- regularexpressionpackage.RegularExpClass -->
-    </test> <!-- Regular Expression Test -->
-  </suite> <!-- Regular Expression Test -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testOneMethod()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="testOneMethod" finished-at="2021-10-21T12:35:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="afterMethod" finished-at="2021-10-21T12:35:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="afterClass" finished-at="2021-10-21T12:35:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="afterTest" finished-at="2021-10-21T12:35:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.beforeafter.TestClass@26e356f0]" started-at="2021-10-21T12:35:28 IST" name="afterSuite" finished-at="2021-10-21T12:35:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.beforeafter.TestClass -->
+    </test> <!-- First Test -->
+  </suite> <!-- First Suite -->
 </testng-results>

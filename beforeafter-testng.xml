@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="First Suite">
+  <test thread-count="5" name="First Test">
+    <classes>
+      <class name="tests.beforeafter.TestClass">
+      <methods>
+      <include name="testOneMethod"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- First Test -->
+</suite> <!-- First Suite -->
