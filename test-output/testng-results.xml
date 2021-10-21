@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-20T15:29:09 IST" name="Method Test Suite" finished-at="2021-10-20T15:29:09 IST" duration-ms="178">
+  <suite started-at="2021-10-21T11:37:49 IST" name="Regular Expression Test" finished-at="2021-10-21T11:37:49 IST" duration-ms="90">
     <groups>
     </groups>
-    <test started-at="2021-10-20T15:29:09 IST" name="Test" finished-at="2021-10-20T15:29:09 IST" duration-ms="178">
-      <class name="tests.FirstTestClass">
-        <test-method signature="testMethod2()[pri:0, instance:tests.FirstTestClass@543588e6]" started-at="2021-10-20T15:29:09 IST" name="testMethod2" finished-at="2021-10-20T15:29:09 IST" duration-ms="15" status="PASS">
+    <test started-at="2021-10-21T11:37:49 IST" name="Regular Expression Test" finished-at="2021-10-21T11:37:49 IST" duration-ms="90">
+      <class name="regularexpressionpackage.RegularExpClass">
+        <test-method signature="excludeFirstTest()[pri:0, instance:regularexpressionpackage.RegularExpClass@7133da86]" started-at="2021-10-21T11:37:49 IST" name="excludeFirstTest" finished-at="2021-10-21T11:37:49 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod2 -->
-      </class> <!-- tests.FirstTestClass -->
-      <class name="tests.SecondTestClass">
-        <test-method signature="testMethod3()[pri:0, instance:tests.SecondTestClass@4d0f2471]" started-at="2021-10-20T15:29:09 IST" name="testMethod3" finished-at="2021-10-20T15:29:09 IST" duration-ms="15" status="PASS">
+        </test-method> <!-- excludeFirstTest -->
+        <test-method signature="excludeSecondTest()[pri:0, instance:regularexpressionpackage.RegularExpClass@7133da86]" started-at="2021-10-21T11:37:49 IST" name="excludeSecondTest" finished-at="2021-10-21T11:37:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod3 -->
-      </class> <!-- tests.SecondTestClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Method Test Suite -->
+        </test-method> <!-- excludeSecondTest -->
+        <test-method signature="includeFirstTest()[pri:0, instance:regularexpressionpackage.RegularExpClass@7133da86]" started-at="2021-10-21T11:37:49 IST" name="includeFirstTest" finished-at="2021-10-21T11:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- includeFirstTest -->
+        <test-method signature="includeSecondTest()[pri:0, instance:regularexpressionpackage.RegularExpClass@7133da86]" started-at="2021-10-21T11:37:49 IST" name="includeSecondTest" finished-at="2021-10-21T11:37:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- includeSecondTest -->
+      </class> <!-- regularexpressionpackage.RegularExpClass -->
+    </test> <!-- Regular Expression Test -->
+  </suite> <!-- Regular Expression Test -->
 </testng-results>
