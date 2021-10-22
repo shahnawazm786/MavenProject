@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameter Suite">
+  <parameter name="Param -1" value="Suite Parameter in Method One"/>
+  <test thread-count="5" name="Parameter Test One">
+  
+  <classes>
+  <class name="parameter.ParameterTest">
+  <methods>
+  <include name="parameterTestOne"/>
+  </methods>
+  </class>
+  </classes>
+  </test> <!-- Parameter Test -->
+  <test name="Parameter Test Two">
+  <parameter name="Param -2" value=" ==>  Parameter value for Method Two"/>
+  <classes>
+  <class name="parameter.ParameterTest">
+  <methods>
+  <include name="parameterTestTwo"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  <test name="Parameter Test Three">
+  <parameter name="First Parameter" value="==> First parameter value in Third Method"/>
+  <parameter name="Second Parameter" value="==> Second parameter value in Third Method"/>
+  <classes>
+  <class name="parameter.ParameterTest">
+  <methods>
+  <include name="paramterTestThree"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+</suite> <!-- Parameter Suite -->

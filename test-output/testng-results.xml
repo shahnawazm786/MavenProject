@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-21T16:50:54 IST" name="Time Test Suite" finished-at="2021-10-21T16:50:55 IST" duration-ms="1025">
+  <suite started-at="2021-10-22T14:20:28 IST" name="Parameter Suite" finished-at="2021-10-22T14:20:28 IST" duration-ms="155">
     <groups>
     </groups>
-    <test started-at="2021-10-21T16:50:54 IST" name="Time Test" finished-at="2021-10-21T16:50:55 IST" duration-ms="1025">
-      <class name="tests.timetest.TimeSuite">
-        <test-method signature="timeTestOne()[pri:0, instance:tests.timetest.TimeSuite@25084a1e]" started-at="2021-10-21T16:50:54 IST" name="timeTestOne" finished-at="2021-10-21T16:50:54 IST" duration-ms="530" status="FAIL">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method tests.timetest.TimeSuite.timeTestOne() didn't finish within the time-out 500]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.timetest.TimeSuite.timeTestOne() didn't finish within the time-out 500
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+    <test started-at="2021-10-22T14:20:28 IST" name="Parameter Test One" finished-at="2021-10-22T14:20:28 IST" duration-ms="65">
+      <class name="parameter.ParameterTest">
+        <test-method signature="parameterTestOne(java.lang.String)[pri:0, instance:parameter.ParameterTest@28f2a10f]" started-at="2021-10-22T14:20:28 IST" name="parameterTestOne" finished-at="2021-10-22T14:20:28 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suite Parameter in Method One]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- timeTestOne -->
-        <test-method signature="timeTestTwo()[pri:0, instance:tests.timetest.TimeSuite@25084a1e]" started-at="2021-10-21T16:50:54 IST" name="timeTestTwo" finished-at="2021-10-21T16:50:55 IST" duration-ms="411" status="PASS">
+        </test-method> <!-- parameterTestOne -->
+      </class> <!-- parameter.ParameterTest -->
+    </test> <!-- Parameter Test One -->
+    <test started-at="2021-10-22T14:20:28 IST" name="Parameter Test Two" finished-at="2021-10-22T14:20:28 IST" duration-ms="8">
+      <class name="parameter.ParameterTest">
+        <test-method signature="parameterTestTwo(java.lang.String)[pri:0, instance:parameter.ParameterTest@48aca48b]" started-at="2021-10-22T14:20:28 IST" name="parameterTestTwo" finished-at="2021-10-22T14:20:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ==>  Parameter value for Method Two]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- timeTestTwo -->
-      </class> <!-- tests.timetest.TimeSuite -->
-    </test> <!-- Time Test -->
-  </suite> <!-- Time Test Suite -->
+        </test-method> <!-- parameterTestTwo -->
+      </class> <!-- parameter.ParameterTest -->
+    </test> <!-- Parameter Test Two -->
+    <test started-at="2021-10-22T14:20:28 IST" name="Parameter Test Three" finished-at="2021-10-22T14:20:28 IST" duration-ms="9">
+      <class name="parameter.ParameterTest">
+        <test-method signature="paramterTestThree(java.lang.String,java.lang.String)[pri:0, instance:parameter.ParameterTest@53aac487]" started-at="2021-10-22T14:20:28 IST" name="paramterTestThree" finished-at="2021-10-22T14:20:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[==> First parameter value in Third Method]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[==> Second parameter value in Third Method]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paramterTestThree -->
+      </class> <!-- parameter.ParameterTest -->
+    </test> <!-- Parameter Test Three -->
+  </suite> <!-- Parameter Suite -->
 </testng-results>
