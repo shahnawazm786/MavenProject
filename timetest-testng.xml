@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Time Test Suite" time-out="500">
+  <test thread-count="5" name="Time Test">
+    <classes>
+      <class name="tests.timetest.TimeSuite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

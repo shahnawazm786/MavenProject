@@ -1,49 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-21T14:41:51 IST" name="Inheritence Test Suite" finished-at="2021-10-21T14:41:51 IST" duration-ms="67">
+  <suite started-at="2021-10-21T16:50:54 IST" name="Time Test Suite" finished-at="2021-10-21T16:50:55 IST" duration-ms="1025">
     <groups>
     </groups>
-    <test started-at="2021-10-21T14:41:51 IST" name="Inheritence Test" finished-at="2021-10-21T14:41:51 IST" duration-ms="67">
-      <class name="tests.beforeafter.TestClasses">
-        <test-method is-config="true" signature="beforeBaseClass()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="beforeBaseClass" finished-at="2021-10-21T14:41:51 IST" duration-ms="9" status="PASS">
+    <test started-at="2021-10-21T16:50:54 IST" name="Time Test" finished-at="2021-10-21T16:50:55 IST" duration-ms="1025">
+      <class name="tests.timetest.TimeSuite">
+        <test-method signature="timeTestOne()[pri:0, instance:tests.timetest.TimeSuite@25084a1e]" started-at="2021-10-21T16:50:54 IST" name="timeTestOne" finished-at="2021-10-21T16:50:54 IST" duration-ms="530" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.timetest.TimeSuite.timeTestOne() didn't finish within the time-out 500]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.timetest.TimeSuite.timeTestOne() didn't finish within the time-out 500
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeBaseClass -->
-        <test-method is-config="true" signature="beforeChildClass()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="beforeChildClass" finished-at="2021-10-21T14:41:51 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- timeTestOne -->
+        <test-method signature="timeTestTwo()[pri:0, instance:tests.timetest.TimeSuite@25084a1e]" started-at="2021-10-21T16:50:54 IST" name="timeTestTwo" finished-at="2021-10-21T16:50:55 IST" duration-ms="411" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeChildClass -->
-        <test-method is-config="true" signature="beforeBaseMethod()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="beforeBaseMethod" finished-at="2021-10-21T14:41:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeBaseMethod -->
-        <test-method signature="testMethod()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="testMethod" finished-at="2021-10-21T14:41:51 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method is-config="true" signature="beforeChildMethod()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="beforeChildMethod" finished-at="2021-10-21T14:41:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeChildMethod -->
-        <test-method is-config="true" signature="afterBaseMethod()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="afterBaseMethod" finished-at="2021-10-21T14:41:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterBaseMethod -->
-        <test-method is-config="true" signature="afterChildMethod()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="afterChildMethod" finished-at="2021-10-21T14:41:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterChildMethod -->
-        <test-method is-config="true" signature="afterChildClass()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="afterChildClass" finished-at="2021-10-21T14:41:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterChildClass -->
-        <test-method is-config="true" signature="afterBaseClass()[pri:0, instance:tests.beforeafter.TestClasses@51e69659]" started-at="2021-10-21T14:41:51 IST" name="afterBaseClass" finished-at="2021-10-21T14:41:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterBaseClass -->
-      </class> <!-- tests.beforeafter.TestClasses -->
-    </test> <!-- Inheritence Test -->
-  </suite> <!-- Inheritence Test Suite -->
+        </test-method> <!-- timeTestTwo -->
+      </class> <!-- tests.timetest.TimeSuite -->
+    </test> <!-- Time Test -->
+  </suite> <!-- Time Test Suite -->
 </testng-results>
