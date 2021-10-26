@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Optional Test Suite">
+  <test name="Optional Paremeter Test One">
+  <classes>
+  <class name="parameter.OptionalTest"/>
+  </classes>
+  </test> <!-- Optional Paremeter Test -->
+  
+  <test  name="Optional Paremeter Test Two with value">
+  <parameter name="Optional-value" value="Parameter value - TestNG"/>
+  <classes>
+  <class name="parameter.OptionalTest"/>
+  </classes>
+  </test>
+</suite> <!-- Optional Test Suite -->
