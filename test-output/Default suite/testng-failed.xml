@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.beforeafter.ExceptionMessageTest">
+      <class name="javascript.JavaScriptExecutorExample">
         <methods>
-          <include name="execptionMsgTestThree"/>
+          <include name="methodTest"/>
         </methods>
-      </class> <!-- tests.beforeafter.ExceptionMessageTest -->
+      </class> <!-- javascript.JavaScriptExecutorExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
