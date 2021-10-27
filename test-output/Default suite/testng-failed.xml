@@ -5,7 +5,7 @@
     <classes>
       <class name="javascript.JavaScriptExecutorExample">
         <methods>
-          <include name="methodTest"/>
+          <include name="testCssSelectorFirst"/>
         </methods>
       </class> <!-- javascript.JavaScriptExecutorExample -->
     </classes>
